@@ -3,5 +3,5 @@ export default function Footer ({
 }: {
     className?: string;
 }) {
-  return <div className={`bg-[#aaa12c] ${className}`}>Footer New</div>;
+  return <div className={`${className} border-t-2 border-t-solid border-[#757475]`}>Footer New</div>;
 }

@@ -11,7 +11,7 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <main className={ubuntu.className}>
+    <main className={`${ubuntu.className}`}>
       <Component {...pageProps} />
     </main>
   );

@@ -3,5 +3,9 @@ export default function Sidebar ({
 }: {
     className?: string;
 }) {
-  return <div className={`bg-[#b3c90a] ${className}`}>Sidebar</div>;
+  return (
+    <div className={`${className} py-4 px-2 mt-2`}>
+      Sidebar
+    </div>
+  );
 }
