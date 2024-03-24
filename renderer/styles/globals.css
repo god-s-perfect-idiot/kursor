@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-white;
+  }
+}
+
+@layer components {
+  .btn-blue {
+    @apply text-white font-bold px-4 py-2 rounded bg-blue-600 hover:bg-blue-500;
+  }
+}
+
+body {
+  min-height: 100%;
+  --webkit-app-select: none;
+  --webkit-app-region: drag;
+}
+
+#__next {
+  min-height: 100%;
+}
+
+.title {
+  -webkit-app-select: none;
+  -webkit-app-region: drag;
+}
+
+.draggable {
+  -webkit-app-region: drag;
+}
+
+.controls >div:hover {
+  background-color: rgb(81, 80, 79);
+}
