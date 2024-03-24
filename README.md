@@ -1,4 +1,6 @@
-<p align="center"><img src="https://i.imgur.com/a9QWW0v.png"></p>
+# Kursor
+
+A brainless text editor built using Nextron and TailwindCSS.
 
 ## Usage
 
